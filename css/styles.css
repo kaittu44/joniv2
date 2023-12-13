@@ -1,0 +1,117 @@
+body{
+    background: url('../images/bunnybackground.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar-section{
+    background-image:linear-gradient(to right ,#90ee9077,#ffff198e );
+}
+.margin-container{
+    padding:2% 10%;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-link,.navbar-brand{
+    font-weight:600;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color:#eeff00d2;
+}
+
+
+/* First Section */
+
+.first-section{
+    background-image: linear-gradient(to right, #90ee907e,#ffff198e);
+    padding-top: 6%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.head{
+    font-size: 3rem;
+    font-weight: 800;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+
+.head-img{
+    animation: fadeInRight;
+    animation-duration: 1s;
+    padding:15%;
+    position: relative;
+    top: 100px;
+    background: transparent;
+}
+
+.head-img>img{
+    top:100px;
+    rotate: 25deg;
+}
+
+/* Seccond Section */
+
+.second-section{
+    background-image: linear-gradient(to right, #9796f083, #fbc7d48e);
+    text-align: center;
+}
+
+.second-body{
+   padding: 5%; 
+}
+
+
+.second-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.img-gallery {
+    display: grid;
+    grid-gap: 4%;
+    border-radius: 5px;
+}
+
+.img-gallery>div>a>img{
+    rotate: 0deg;
+    transition:all ease-in .2s;
+}
+
+.img-gallery>div>a>img:hover {
+    animation: pulse;
+    animation-duration: 1s;
+    rotate: 3deg;
+}
+
+.img-1{
+    grid-area: 1 / 1 / 1 / 2;
+}
+
+.img-2{
+    grid-area: 1 / 2 / 1 / 3;
+}
+
+.img-3{
+    grid-area: 1 / 3 / 1 / 4;
+}
+
+.img-4{
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+.img-5{
+    grid-area: 2 / 3 / 2 / 4;
+}
+
+
+
+
+
