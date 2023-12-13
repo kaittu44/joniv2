@@ -1,6 +1,6 @@
 body{
     background: url('../images/bunnybackground.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: auto;
 }
 .navbar-section{
     background-image:linear-gradient(to right ,#90ee9077,#ffff198e );
